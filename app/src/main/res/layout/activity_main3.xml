@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <Button
+        android:id="@+id/btnArticalBook"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_margin="25dp"
+        android:onClick="btnArticalBook"
+        android:text="ArticalBook"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="135dp"
+        android:layout_height="72dp"
+        android:layout_margin="25dp"
+        android:onClick="btnVideo"
+        android:text="Video"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnExam"
+        android:layout_width="140dp"
+        android:layout_height="69dp"
+        android:layout_margin="25dp"
+        android:onClick="btnExam"
+        android:text="Exam"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/secound" />
+
+
+</LinearLayout>

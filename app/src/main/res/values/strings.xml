@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assigment</string>
+    <string name="selectcatagory">selectCatagory</string>
+    <string-array name="Class">
+        <item>Math</item>
+        <item>Physics</item>
+        <item>English</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_margin="40dp"
+        android:text="Dixtar" />
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:text="user name " />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        android:text=" password " />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Enter"
+        android:layout_gravity="center"
+        android:id="@+id/btnenter"
+        android:onClick="btnonclick"
+        />
+
+
+</LinearLayout>
